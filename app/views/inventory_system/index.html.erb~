@@ -1,0 +1,10 @@
+<h1><b> Inventory-Control System </b></h1>
+<h2><b> Index Page </b></h2>
+<p><b>An inventory control system or a computerized inventory system is a process for managing and locating objects or materials.</b></p>
+<p><b> Inventory Control System has a number of entities in it ,whose links are as follow:</b> </p>
+<%= link_to 'Supplier', controller: 'suppliers' %>
+<%= link_to 'Product',controller: 'products' %>
+<%= link_to 'Category',controller: 'catgories' %>
+<%= link_to 'Order_Detail', controller: 'order_details' %>
+<%= link_to 'Order', controller: 'orders' %>
+<%= link_to 'Customer', controller: 'customers' %>

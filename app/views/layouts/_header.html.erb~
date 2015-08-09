@@ -1,0 +1,14 @@
+<header>
+<%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+<nav class="round">
+<ul>
+<li><%= link_to "Supplier", '/suppliers' %></li>
+<li><%= link_to "Product", '/products' %></li>
+<li><%= link_to "Category", '/categories' %></li>
+<li><%= link_to "Order_Detail", '/order_details' %></li>
+<li><%= link_to "Order", '/orders' %></li>
+<li><%= link_to "Customer", '/customers' %></li>
+<li><%= link_to "Index", '/' %></li>
+</ul>
+</nav>
+</header>

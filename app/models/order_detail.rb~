@@ -1,0 +1,5 @@
+class OrderDetail < ActiveRecord::Base
+ validates :price, numericality: true
+ validates :quantity, numericality: true
+ validates :discount, numericality: true
+end

@@ -1,0 +1,3 @@
+class Category < ActiveRecord::Base
+validates :c_id, numericality: true
+end

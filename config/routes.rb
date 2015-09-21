@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :warehouses
+
   resources :order_details
 
   resources :orders

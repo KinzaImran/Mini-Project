@@ -4,7 +4,7 @@
 <p><b> Inventory Control System has a number of entities in it ,whose links are as follow:</b> </p>
 <%= link_to 'Supplier', controller: 'suppliers' %>
 <%= link_to 'Product',controller: 'products' %>
-<%= link_to 'Category',controller: 'catgories' %>
+<%= link_to 'Category',controller: 'categories' %>
 <%= link_to 'Order_Detail', controller: 'order_details' %>
 <%= link_to 'Order', controller: 'orders' %>
 <%= link_to 'Customer', controller: 'customers' %>
